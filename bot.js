@@ -157,7 +157,6 @@ d.getTime();
         console.log(chalk.hex("#8FCE00")("[BOT] Logged in at " + d));
 
         await sleep(2);
-        console.log(`[BOT] STARTING EXP: ${startingxp}`); // Displays the starting XP of the player
         await sleep(3);
         bot.chat(playcommand);
         console.log(`[BOT] Current Mode: ${gamemode}`);
